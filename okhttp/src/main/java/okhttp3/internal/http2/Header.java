@@ -17,7 +17,7 @@ package okhttp3.internal.http2;
 
 import okhttp3.Headers;
 import okhttp3.internal.Util;
-import okio.ByteString;
+import okio2.ByteString;
 
 /** HTTP header: the name is an ASCII string, but the value can be UTF-8. */
 public final class Header {

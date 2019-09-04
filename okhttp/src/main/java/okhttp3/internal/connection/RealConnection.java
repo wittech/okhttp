@@ -64,10 +64,10 @@ import okhttp3.internal.http2.Http2Stream;
 import okhttp3.internal.platform.Platform;
 import okhttp3.internal.tls.OkHostnameVerifier;
 import okhttp3.internal.ws.RealWebSocket;
-import okio.BufferedSink;
-import okio.BufferedSource;
-import okio.Okio;
-import okio.Source;
+import okio2.BufferedSink;
+import okio2.BufferedSource;
+import okio2.Okio;
+import okio2.Source;
 
 import static java.net.HttpURLConnection.HTTP_OK;
 import static java.net.HttpURLConnection.HTTP_PROXY_AUTH;

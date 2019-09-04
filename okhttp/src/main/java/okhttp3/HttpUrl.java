@@ -29,7 +29,7 @@ import java.util.Set;
 import javax.annotation.Nullable;
 import okhttp3.internal.Util;
 import okhttp3.internal.publicsuffix.PublicSuffixDatabase;
-import okio.Buffer;
+import okio2.Buffer;
 
 import static okhttp3.internal.Util.decodeHexDigit;
 import static okhttp3.internal.Util.delimiterOffset;

@@ -19,11 +19,11 @@ import java.io.Closeable;
 import java.io.IOException;
 import java.util.List;
 import java.util.logging.Logger;
-import okio.Buffer;
-import okio.BufferedSource;
-import okio.ByteString;
-import okio.Source;
-import okio.Timeout;
+import okio2.Buffer;
+import okio2.BufferedSource;
+import okio2.ByteString;
+import okio2.Source;
+import okio2.Timeout;
 
 import static java.util.logging.Level.FINE;
 import static okhttp3.internal.Util.format;
@@ -47,7 +47,7 @@ import static okhttp3.internal.http2.Http2.TYPE_SETTINGS;
 import static okhttp3.internal.http2.Http2.TYPE_WINDOW_UPDATE;
 import static okhttp3.internal.http2.Http2.frameLog;
 import static okhttp3.internal.http2.Http2.ioException;
-import static okio.ByteString.EMPTY;
+import static okio2.ByteString.EMPTY;
 
 /**
  * Reads HTTP/2 transport frames.

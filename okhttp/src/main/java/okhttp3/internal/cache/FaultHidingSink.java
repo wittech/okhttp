@@ -16,9 +16,9 @@
 package okhttp3.internal.cache;
 
 import java.io.IOException;
-import okio.Buffer;
-import okio.ForwardingSink;
-import okio.Sink;
+import okio2.Buffer;
+import okio2.ForwardingSink;
+import okio2.Sink;
 
 /** A sink that never throws IOExceptions, even if the underlying sink does. */
 class FaultHidingSink extends ForwardingSink {

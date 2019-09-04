@@ -13,10 +13,10 @@
   <name>OkHttp</name>
 
   <dependencies>
-    <dependency>
-      <groupId>com.squareup.okio</groupId>
-      <artifactId>okio</artifactId>
-    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>com.squareup.okio2</groupId>-->
+      <!--<artifactId>okio2</artifactId>-->
+    <!--</dependency>-->
     <dependency>
       <groupId>org.conscrypt</groupId>
       <artifactId>conscrypt-openjdk-uber</artifactId>
@@ -61,7 +61,7 @@
         <configuration>
           <excludePackageNames>okhttp3.internal:okhttp3.internal.*</excludePackageNames>
           <links>
-            <link>http://square.github.io/okio/</link>
+            <link>http://square.github.io/okio2/</link>
           </links>
         </configuration>
       </plugin>

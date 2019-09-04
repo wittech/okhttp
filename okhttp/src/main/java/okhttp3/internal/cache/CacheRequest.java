@@ -16,7 +16,7 @@
 package okhttp3.internal.cache;
 
 import java.io.IOException;
-import okio.Sink;
+import okio2.Sink;
 
 public interface CacheRequest {
   Sink body() throws IOException;

@@ -16,7 +16,7 @@
 package okhttp3;
 
 import java.nio.charset.Charset;
-import okio.ByteString;
+import okio2.ByteString;
 
 import static okhttp3.internal.Util.ISO_8859_1;
 

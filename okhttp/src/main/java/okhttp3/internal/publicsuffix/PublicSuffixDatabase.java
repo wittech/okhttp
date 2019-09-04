@@ -23,9 +23,9 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicBoolean;
 import okhttp3.internal.Util;
 import okhttp3.internal.platform.Platform;
-import okio.BufferedSource;
-import okio.GzipSource;
-import okio.Okio;
+import okio2.BufferedSource;
+import okio2.GzipSource;
+import okio2.Okio;
 
 import static okhttp3.internal.Util.closeQuietly;
 

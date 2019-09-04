@@ -19,7 +19,7 @@ import java.io.IOException;
 import okhttp3.Request;
 import okhttp3.Response;
 import okhttp3.ResponseBody;
-import okio.Sink;
+import okio2.Sink;
 
 /** Encodes HTTP requests and decodes HTTP responses. */
 public interface HttpCodec {

@@ -49,10 +49,10 @@ import okhttp3.HttpUrl;
 import okhttp3.RequestBody;
 import okhttp3.ResponseBody;
 import okhttp3.internal.http2.Header;
-import okio.Buffer;
-import okio.BufferedSource;
-import okio.ByteString;
-import okio.Source;
+import okio2.Buffer;
+import okio2.BufferedSource;
+import okio2.ByteString;
+import okio2.Source;
 
 /** Junk drawer of utility methods. */
 public final class Util {

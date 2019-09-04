@@ -21,8 +21,8 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.annotation.Nullable;
 import okhttp3.internal.Util;
-import okio.Buffer;
-import okio.BufferedSink;
+import okio2.Buffer;
+import okio2.BufferedSink;
 
 import static okhttp3.HttpUrl.FORM_ENCODE_SET;
 import static okhttp3.HttpUrl.percentDecode;

@@ -16,7 +16,7 @@
 package okhttp3;
 
 import java.io.IOException;
-import okio.Timeout;
+import okio2.Timeout;
 
 /**
  * A call is a request that has been prepared for execution. A call can be canceled. As this object

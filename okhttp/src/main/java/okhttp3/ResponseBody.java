@@ -23,9 +23,9 @@ import java.io.Reader;
 import java.nio.charset.Charset;
 import javax.annotation.Nullable;
 import okhttp3.internal.Util;
-import okio.Buffer;
-import okio.BufferedSource;
-import okio.ByteString;
+import okio2.Buffer;
+import okio2.BufferedSource;
+import okio2.ByteString;
 
 import static okhttp3.internal.Util.UTF_8;
 

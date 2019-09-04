@@ -31,8 +31,8 @@ import okhttp3.Headers;
 import okhttp3.HttpUrl;
 import okhttp3.Request;
 import okhttp3.Response;
-import okio.Buffer;
-import okio.ByteString;
+import okio2.Buffer;
+import okio2.ByteString;
 
 import static java.net.HttpURLConnection.HTTP_NOT_MODIFIED;
 import static java.net.HttpURLConnection.HTTP_NO_CONTENT;

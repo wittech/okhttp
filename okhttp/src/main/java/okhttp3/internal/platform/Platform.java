@@ -37,7 +37,7 @@ import okhttp3.internal.tls.BasicCertificateChainCleaner;
 import okhttp3.internal.tls.BasicTrustRootIndex;
 import okhttp3.internal.tls.CertificateChainCleaner;
 import okhttp3.internal.tls.TrustRootIndex;
-import okio.Buffer;
+import okio2.Buffer;
 
 /**
  * Access to platform-specific features.

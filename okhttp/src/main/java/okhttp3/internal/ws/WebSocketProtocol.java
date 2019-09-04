@@ -15,8 +15,8 @@
  */
 package okhttp3.internal.ws;
 
-import okio.Buffer;
-import okio.ByteString;
+import okio2.Buffer;
+import okio2.ByteString;
 
 public final class WebSocketProtocol {
   /** Magic value which must be appended to the key in a response header. */

@@ -39,15 +39,15 @@ import okhttp3.internal.http.HttpMethod;
 import okhttp3.internal.http.StatusLine;
 import okhttp3.internal.io.FileSystem;
 import okhttp3.internal.platform.Platform;
-import okio.Buffer;
-import okio.BufferedSink;
-import okio.BufferedSource;
-import okio.ByteString;
-import okio.ForwardingSink;
-import okio.ForwardingSource;
-import okio.Okio;
-import okio.Sink;
-import okio.Source;
+import okio2.Buffer;
+import okio2.BufferedSink;
+import okio2.BufferedSource;
+import okio2.ByteString;
+import okio2.ForwardingSink;
+import okio2.ForwardingSource;
+import okio2.Okio;
+import okio2.Sink;
+import okio2.Source;
 
 /**
  * Caches HTTP and HTTPS responses to the filesystem so they may be reused, saving time and

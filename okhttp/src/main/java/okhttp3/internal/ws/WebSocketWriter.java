@@ -17,11 +17,11 @@ package okhttp3.internal.ws;
 
 import java.io.IOException;
 import java.util.Random;
-import okio.Buffer;
-import okio.BufferedSink;
-import okio.ByteString;
-import okio.Sink;
-import okio.Timeout;
+import okio2.Buffer;
+import okio2.BufferedSink;
+import okio2.ByteString;
+import okio2.Sink;
+import okio2.Timeout;
 
 import static okhttp3.internal.ws.WebSocketProtocol.B0_FLAG_FIN;
 import static okhttp3.internal.ws.WebSocketProtocol.B1_FLAG_MASK;

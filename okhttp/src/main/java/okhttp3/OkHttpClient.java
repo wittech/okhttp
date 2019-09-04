@@ -46,8 +46,8 @@ import okhttp3.internal.proxy.NullProxySelector;
 import okhttp3.internal.tls.CertificateChainCleaner;
 import okhttp3.internal.tls.OkHostnameVerifier;
 import okhttp3.internal.ws.RealWebSocket;
-import okio.Sink;
-import okio.Source;
+import okio2.Sink;
+import okio2.Source;
 import org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement;
 
 import static okhttp3.internal.Util.assertionError;

@@ -26,7 +26,7 @@ import java.util.Set;
 import javax.annotation.Nullable;
 import javax.net.ssl.SSLPeerUnverifiedException;
 import okhttp3.internal.tls.CertificateChainCleaner;
-import okio.ByteString;
+import okio2.ByteString;
 
 import static okhttp3.internal.Util.equal;
 

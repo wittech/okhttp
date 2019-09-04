@@ -18,10 +18,10 @@ package okhttp3.internal.cache2;
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
-import okio.Buffer;
-import okio.ByteString;
-import okio.Source;
-import okio.Timeout;
+import okio2.Buffer;
+import okio2.ByteString;
+import okio2.Source;
+import okio2.Timeout;
 
 import static okhttp3.internal.Util.closeQuietly;
 

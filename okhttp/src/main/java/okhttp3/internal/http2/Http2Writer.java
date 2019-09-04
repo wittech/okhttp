@@ -19,8 +19,8 @@ import java.io.Closeable;
 import java.io.IOException;
 import java.util.List;
 import java.util.logging.Logger;
-import okio.Buffer;
-import okio.BufferedSink;
+import okio2.Buffer;
+import okio2.BufferedSink;
 
 import static java.util.logging.Level.FINE;
 import static okhttp3.internal.Util.format;

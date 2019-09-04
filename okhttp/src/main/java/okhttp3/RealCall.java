@@ -31,8 +31,8 @@ import okhttp3.internal.http.CallServerInterceptor;
 import okhttp3.internal.http.RealInterceptorChain;
 import okhttp3.internal.http.RetryAndFollowUpInterceptor;
 import okhttp3.internal.platform.Platform;
-import okio.AsyncTimeout;
-import okio.Timeout;
+import okio2.AsyncTimeout;
+import okio2.Timeout;
 
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 import static okhttp3.internal.Util.closeQuietly;

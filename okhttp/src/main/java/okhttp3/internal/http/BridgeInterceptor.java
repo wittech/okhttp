@@ -27,8 +27,8 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 import okhttp3.internal.Version;
-import okio.GzipSource;
-import okio.Okio;
+import okio2.GzipSource;
+import okio2.Okio;
 
 import static okhttp3.internal.Util.hostHeader;
 

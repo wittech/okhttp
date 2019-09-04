@@ -23,11 +23,11 @@ import okhttp3.Response;
 import okhttp3.internal.Util;
 import okhttp3.internal.connection.RealConnection;
 import okhttp3.internal.connection.StreamAllocation;
-import okio.Buffer;
-import okio.BufferedSink;
-import okio.ForwardingSink;
-import okio.Okio;
-import okio.Sink;
+import okio2.Buffer;
+import okio2.BufferedSink;
+import okio2.ForwardingSink;
+import okio2.Okio;
+import okio2.Sink;
 
 /** This is the last interceptor in the chain. It makes a network call to the server. */
 public final class CallServerInterceptor implements Interceptor {

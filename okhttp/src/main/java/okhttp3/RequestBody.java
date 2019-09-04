@@ -20,10 +20,10 @@ import java.io.IOException;
 import java.nio.charset.Charset;
 import javax.annotation.Nullable;
 import okhttp3.internal.Util;
-import okio.BufferedSink;
-import okio.ByteString;
-import okio.Okio;
-import okio.Source;
+import okio2.BufferedSink;
+import okio2.ByteString;
+import okio2.Okio;
+import okio2.Source;
 
 public abstract class RequestBody {
   /** Returns the Content-Type header for this body. */

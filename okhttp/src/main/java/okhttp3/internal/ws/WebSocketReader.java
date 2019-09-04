@@ -18,9 +18,9 @@ package okhttp3.internal.ws;
 import java.io.IOException;
 import java.net.ProtocolException;
 import java.util.concurrent.TimeUnit;
-import okio.Buffer;
-import okio.BufferedSource;
-import okio.ByteString;
+import okio2.Buffer;
+import okio2.BufferedSource;
+import okio2.ByteString;
 
 import static java.lang.Integer.toHexString;
 import static okhttp3.internal.ws.WebSocketProtocol.B0_FLAG_FIN;

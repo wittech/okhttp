@@ -18,7 +18,7 @@ package okhttp3.internal.http2;
 import java.io.IOException;
 import java.util.List;
 import okhttp3.Protocol;
-import okio.BufferedSource;
+import okio2.BufferedSource;
 
 /**
  * {@link Protocol#HTTP_2 HTTP/2} only. Processes server-initiated HTTP requests on the client.

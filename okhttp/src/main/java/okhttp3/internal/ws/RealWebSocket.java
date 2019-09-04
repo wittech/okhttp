@@ -40,10 +40,10 @@ import okhttp3.WebSocketListener;
 import okhttp3.internal.Internal;
 import okhttp3.internal.Util;
 import okhttp3.internal.connection.StreamAllocation;
-import okio.BufferedSink;
-import okio.BufferedSource;
-import okio.ByteString;
-import okio.Okio;
+import okio2.BufferedSink;
+import okio2.BufferedSource;
+import okio2.ByteString;
+import okio2.Okio;
 
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 import static okhttp3.internal.Util.closeQuietly;

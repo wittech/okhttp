@@ -36,12 +36,12 @@ import okhttp3.internal.http.HttpHeaders;
 import okhttp3.internal.http.RealResponseBody;
 import okhttp3.internal.http.RequestLine;
 import okhttp3.internal.http.StatusLine;
-import okio.Buffer;
-import okio.ByteString;
-import okio.ForwardingSource;
-import okio.Okio;
-import okio.Sink;
-import okio.Source;
+import okio2.Buffer;
+import okio2.ByteString;
+import okio2.ForwardingSource;
+import okio2.Okio;
+import okio2.Sink;
+import okio2.Source;
 
 import static okhttp3.internal.http.StatusLine.HTTP_CONTINUE;
 import static okhttp3.internal.http2.Header.RESPONSE_STATUS_UTF8;
