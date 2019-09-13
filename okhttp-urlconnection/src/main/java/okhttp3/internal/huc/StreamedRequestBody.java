@@ -17,10 +17,10 @@ package okhttp3.internal.huc;
 
 import java.io.IOException;
 import okhttp3.internal.http.UnrepeatableRequestBody;
-import okio.Buffer;
-import okio.BufferedSink;
-import okio.Okio;
-import okio.Pipe;
+import okio2.Buffer;
+import okio2.BufferedSink;
+import okio2.Okio;
+import okio2.Pipe;
 
 /**
  * This request body streams bytes from an application thread to an OkHttp dispatcher thread via a

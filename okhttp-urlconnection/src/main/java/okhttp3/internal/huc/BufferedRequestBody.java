@@ -17,8 +17,8 @@ package okhttp3.internal.huc;
 
 import java.io.IOException;
 import okhttp3.Request;
-import okio.Buffer;
-import okio.BufferedSink;
+import okio2.Buffer;
+import okio2.BufferedSink;
 
 /**
  * This request body involves an application thread only. First all bytes are written to the buffer.

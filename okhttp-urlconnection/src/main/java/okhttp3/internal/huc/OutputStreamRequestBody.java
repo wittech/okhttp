@@ -23,8 +23,8 @@ import java.net.SocketTimeoutException;
 import okhttp3.MediaType;
 import okhttp3.Request;
 import okhttp3.RequestBody;
-import okio.BufferedSink;
-import okio.Timeout;
+import okio2.BufferedSink;
+import okio2.Timeout;
 
 /**
  * A request body that's populated by blocking writes to an output stream. The output data is either
